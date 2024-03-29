@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px ; 
+}
+
+.main-div {
+    width: 400px;
+    height: 600px;
+    box-shadow: 
+        3px 3px 3px rgba(0, 0, 1, 0.5),
+        inset 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px
+}
+
+.form label{
+   margin: 7px;
+   opacity: 0.5;
+}
+.form input{
+   ;
+}
+
+input{
+    height: 40px;
+    width: 350px;
+}
+
+button{
+    background-color: rgb(4, 67, 224);
+    margin-top: 10px;
+    width: 360px;
+    height: 40px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+}
